@@ -285,6 +285,7 @@ class Client(Methods):
         self.device_model = device_model
         self.system_version = system_version
         self.lang_code = lang_code.lower()
+        self.system_lang_code = system_lang_code.lower()
         self.lang_pack = lang_pack.lower()
         self.ipv6 = ipv6
         self.alt_port = alt_port
