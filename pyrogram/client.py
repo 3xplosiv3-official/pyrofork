@@ -222,6 +222,7 @@ class Client(Methods):
 
     LANG_CODE = "en"
     LANG_PACK = "tdesktop"
+    SYSTEM_LANG_CODE = "en-us"
 
     PARENT_DIR = Path(sys.argv[0]).parent
 
@@ -247,6 +248,7 @@ class Client(Methods):
         device_model: str = DEVICE_MODEL,
         system_version: str = SYSTEM_VERSION,
         lang_code: str = LANG_CODE,
+        system_lang_code: str = SYSTEM_LANG_CODE,
         lang_pack: str = LANG_PACK,
         ipv6: Optional[bool] = False,
         alt_port: Optional[bool] = False,
